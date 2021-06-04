@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>🐤구석을🐤봐요🐤</title>
+		<meta name="keywords" content="grid, css, layout, template, hover, content, gsap, tweenmax, overlay" />
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-cross" viewBox="0 0 24 23">
+				<title>cross</title>
+				<path d="M23.865 3.677c.197-.383.164-.818-.008-1.18.048-.41-.06-.827-.448-1.147L22.323.457c-.636-.524-1.632-.689-2.25 0a155.348 155.348 0 0 1-8.797 9.001C9.011 7.342 6.72 5.255 4.443 3.165c-.8-.734-1.956-.503-2.458.37C1.253 3.9.659 4.374.168 5.182c-.233.386-.215.872 0 1.258 1.47 2.635 4.31 4.951 6.646 7.083-.313.28-.623.562-.942.836-3.146 2.702-5.268 4.416-1.331 7.187.053.037.107.029.161.05.076.036.148.06.232.074.026 0 .05.005.075.003.082.007.16.027.243.011 2.117-.415 4.085-2.074 5.872-3.9 1.74 1.715 3.592 3.353 5.63 4.325.485.232 1.063.097 1.436-.227.626.047 1.197-.342 1.484-.901.042-.026.07-.041.116-.07.91-.569.993-1.701.32-2.482-1.522-1.762-3.138-3.438-4.787-5.084 2.968-2.9 6.674-6.027 8.542-9.667z"/>
+			</symbol>
+		</svg>
+		<main>
+			<div class="content">
+				<header class="codrops-header">
+					<div class="codrops-links">
+						<a class="codrops-icon codrops-icon--prev" href="https://www.youtube.com/watch?v=wgUczLEUWkA" title="duck.cute"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+					</div>
+					<a class="github" href="https://www.youtube.com/watch?v=NvF4QTkdk_s" title="meme.italian"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
+				</header>
+			</div>
+			<div class="content">
+				<div class="grid">
+					<a class="grid__item" href="#preview-1">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/flor.jpg" alt="Tarde en el Jardín"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="꽃">꽃</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">&#127799;</span></h4>
+							<p class="box__content">김춘수 (1922-2004)
+								<br>우리들은 모두
+								<br>무엇이 되고 싶다.
+								<br>너는 나에게 나는 너에게
+								<br>잊혀지지 않는 하나의 눈짓이 되고 싶다.</br>
+							</p>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-2">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/dibujo.jpg" alt="DKS-Edificio"/>
+							<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Ser">Ser</span></h3>
+							<h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1"></span></h4>
+							<div class="box__deco box__deco--top"></div>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-3">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/Máscara.jpg" alt="alterego"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Soy">Soy</span></h3>
+							<h4 class="box__text box__text--topcloser"><span class="box__text-inner"></span></h4>
+							<p class="box__content"><br>"Ad ogni uccello il proprio nido è bello"</p>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-3b">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/Mano.jpg" alt="Criatura"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="&#127762;">&#127762;</span></h3>
+							<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner"></span></h4>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-4">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/ohshit.jpg" alt="mi"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="She">She</span></h3>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-5">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/Plastic.jpg" alt="dios"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover=G̴̨̢̢̪͙̼͍̮̗̓̊́͝ǫ̴̢̫̖̮͓͍̞͎̟͘d̶̡̛͔̼̝̰̝̮̥̗̝͊>G̴̨̢̢̪͙̼͍̮̗̓̊́͝ǫ̴̢̫̖̮͓͍̞͎̟͘d̶̡̛͔̼̝̰̝̮̥̗̝͊</span></h3>
+							<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner"></span></h4>
+							<p class="box__content">"There are days that define your story beyond your life
+								<br>Like the day they arrived."
+							</p>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-6">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/junji-ito.jpg" alt="Historias de amor"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Noche">Noche</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">(#000)</span></h4>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-7">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/Espejo.jpg" alt="Meandmyself"/>
+							<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner" data-hover="Autor">Autor</span></h3>
+							<h4 class="box__text"><span class="box__text-inner">&#9759;</span></h4>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-8">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/joji.jpeg" alt="joji"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="&#9834;">&#9834;</span></h3>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-9">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/who.jpg" alt="both"/>
+							<h3 class="box__title"><span class="box__title-inner" data-hover="Dual">Dual</span></h3>
+							<h4 class="box__text box__text--bottom"><span class="box__text-inner">Who?</span></h4>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-10">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/vaca.jpg" alt="outfit"/>
+							<h3 class="box__title box__title--bottom"><span class="box__title-inner" data-hover="Mooo">Mooo</span></h3>
+							<h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">&#10014;</span></h4>
+							<p class="box__content">"Soy sci-fi, 
+								<br>soy raro, 
+								<br>soy costuras mal hechas, 
+								<br>soy un alien, 
+								<br>y vomito joyas viejas de mi madre."</p>
+						</div>
+					</a>
+					<a class="grid__item" href="#preview-11">
+						<div class="box">
+							<div class="box__shadow"></div>
+							<img class="box__img" src="img/manito.png" alt="final?"/>
+							<h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner" data-hover="00">00</span></h3>
+							<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">?</span></h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="overlay">
+				<div class="overlay__reveal"></div>
+				<div class="overlay__item" id="preview-1">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/flor.png" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">xyz</span></h3>
+						<h4 class="box__text"><span class="box__text-inner"></span></h4>
+						<div class="box__deco">&#10078;</div>
+					</div>
+					<p class="overlay__content">
+						<br>Me asomé por la barandilla; allá, a lo lejos y por la costa, las vi paseando. Cerradas, por supuesto que cerradas, pero qué hacían bañándose cuando estaba tan nuboso y acababan de beber el agua que había encargado para ellas. Con cubos de azúcar y tres gotas de limón, ni una más, ni una menos. </br>
+						<br>"¡Maleducadas!" les grité a todo pulmón, con tal fuerza que las nubes despejaron con abrumadora rapidez, como asustadas con mi arrebato. El sol salió brillante, y las desgraciadas, allí mismo con los pies al mar, florecieron.</br>
+						</p>
+				</div>
+				<div class="overlay__item" id="preview-2">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/dos.png" alt="Libreta de ideas"/>
+						<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">Aquí-allá</span></h3>
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner box__text-inner--rotated1"></span></h4>
+						<div class="box__deco box__deco--top"></div>
+					</div>
+					<p class="overlay__content">Finge.
+						<br>Un regreso a-</br>
+						ㅤㅤ
+						<br>Mercurio, Venus, Tierra.</br>
+						ㅤㅤ
+						<br>Es un trance, un momento—siempre se trata de un momento. No habría peor ocasión, fiesta nocturna de apariencia y ron en las rocas en nombre de Fendi, del cuál se limitó a tan solo asistir y fingir fatigado. Sutiles guiños, labios rasgando una sonrisa, mejillas tensas, quijada apretada. Hasta cuándo, la pregunta, que sigue rezando a-</br>
+						ㅤㅤ
+						<br>Marte, Júpiter, Saturno.</br>
+						</p>
+				</div>
+				<div class="overlay__item" id="preview-3">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/máscara.png" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">Alterego</span></h3>
+						<h4 class="box__text box__text--topcloser"><span class="box__text-inner"></span></h4>
+						<div class="box__deco">&#8991;</div>
+					</div>
+					<p class="overlay__content"><br>Quiero contarte que el sol aquí es perfecto, tan brillante y caluroso que me preocupa un poco el tener que abandonarlo... pronto, muy pronto. También quiero contarte que aquí los dulces saben mejor, se quedan más tiempo en tu lengua y el castagnole de Panarello es inolvidable.</br>
+						<br>Lo admito, quizá estoy muy cesgado y enamorado de estas calles de adoquines, paredes de sillares y alargadas finestre, tan distinto al movimiento usual que hay en la ciudad. Aquí se vive lento, y cuando te pierdes lo haces en cafés en vez de grises, las flores te saludan amarteladas y el viento te acaricia como una madre.</br></p>
+				</div>
+				<div class="overlay__item" id="preview-3b">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/mano.png" alt="Some image"/>
+						<h3 class="box__title"><span class="box__title-inner">꿈에서 꿈</span></h3>
+						<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner"></span></h4>
+						<div class="box__deco">&#127762;</div>
+					</div>
+					<p class="overlay__content"><br>Estaba el tiempo de atraparse el reflejo en el vidrio, una mueca, de rascarse el lagrimal que ardió un poco porque se corrió el delineador. Le faltaba la guitarra, sí. Tiempo de manos entre muslos mientras la espera pendía de la cantidad de pestañeos que contaba, apoyado en la baranda dándole la espalda a la luna. </br>
+						<br>Así de nervioso era, a veces, con el ruido taponado tras la ventana y, por fin, el corporeo blanco cerraba tras suyo tan rápido como se hacía parte de ese espacio. No había llave pero estaba bien, la cortina se convertiría en su muralla intrascendente, intraspasable, la que les brinda lo invisible (y lo secreto). 
+						</p>
+				</div>
+				<div class="overlay__item" id="preview-4">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/rosado.png" alt="cool-it-up"/>
+						<h3 class="box__title"><span class="box__title-inner">뛰고 웃고 울고 그녀는</span></h3>
+						<h4 class="box__text box__text--bottom box__text--right"><span class="box__text-inner box__text-inner--rotated3">&#128308;</span></h4>
+					</div>
+					<p class="overlay__content"><br>Y apúrate, perro
+						<br>Que se hace tarde
+						<br>Para gritar, romper, matar
+						<br>Esa mosca, la infeliz, 
+						<br>El desgraciado, de por allí
+						<br>Y nos reímos en su cara, y le tiramos una piedra
+						<br>Para salir corriedo, 
+						<br>Dinámico, excéntrico, maniático
+						<br>Reímos
+						<br>Y al caer la noche, maldita noche
+						<br>Apúrate, narciso
+						<br>A sentarnos más allá, en la vereda
+						<br>En el frío, del cemento duro
+						<br>A contar historias, y fumar cigarros
+						<br>A desatar cordones, y escupirle al cielo.
+						</p>
+				</div>
+				<div class="overlay__item" id="preview-5">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/plastic.png" alt="No worries, i'm friendly"/>
+						<h3 class="box__title"><span class="box__title-inner">&#127765;</span></h3>
+						<h4 class="box__text box__text--bottomcloser"><span class="box__text-inner">Welcome, 2020</span></h4>
+					</div>
+					<p class="overlay__content"><br>Sus displicentes ojos lo observaban todo; capaz de crear pesadillas corpóreas, poseía una imaginación inusitada que se derramaba como el agua por la punta de sus dedos, vertientes de congoja suprema para quien osara molestarlo. </br>
+						<br>Seres de menor rango caerían de rodillas a sus pies, pidiéndole perdón pues pocos sabían lo que yacía en su interior; concedería misericordia con gracia y, disgustado de ensuciarse, aborrecía aquellos cuerpos bañados en su propia inmundicia de la ignorancia. </br></p>
+				</div>
+				<div class="overlay__item" id="preview-6">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/junji.png" alt="woops"/>
+						<h3 class="box__title"><span class="box__title-inner">伊藤 潤 二</span></h3>
+						<h4 class="box__text"><span class="box__text-inner">&#9594;</span></h4>
+					</div>
+					<p class="overlay__content"><br>Es un eco a un mal beso, a picazón sobre la piel, perturbación del estado, la estrechez imaginaria de la ropa que le viste. Es la réplica del extraviado, deambulante de angostillos, observador estático del movimiento y el sonido, risas, gritos. 
+						Testigo del tiempo devorando el azul, tragando en naranjos y digiriendo con negros. </br>
+
+						<br>Una bofetada arde en su mano por ser golpeada, está caliente, tan ardiente como el rojo al que transmuta—es un grito de odio, un arranque de cabellos, y qué esperas, márchate, lárgate de aquí, conviértete (irónicamente) en el escupitajo de un distrito con dientes de oro y diamantes en los ojos.</br>
+						 </p>
+				</div>
+				<div class="overlay__item" id="preview-7">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/espejo.png" alt="yoyoyo"/>
+						<h3 class="box__title box__title--straight box__title--bottom"><span class="box__title-inner">Narciso</span></h3>
+					</div>
+					<p class="overlay__content"><br>Apúrate, velocidad
+						<br>Descontrol, así se hace
+						<br>Este poema, un mal poema
+						<br>Para el impulsivo
+						<br>Rápido, apúrate, vamos allá
+						<br>Y ven para acá
+						<br>Ven, a ahogarte aquí
+						<br>A nadar desnudo, a tirar piedras
+						<br>A ventanas
+						<br>si le cae en la cabeza 
+						<br>Mala suerte
+						<br>Y si se rompe un dedo
+						<br>Mala suerte
+						<br>Porque así se hace, rápido, fugaz
+						<br>Dinámico, excéntrico, maniático.
+						</p>
+				</div>
+				<div class="overlay__item" id="preview-8">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/kai.png" alt="rikolino"/>
+						<h3 class="box__title"><span class="box__title-inner">MMMH</span></h3>
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner"></span></h4>
+						<div class="box__deco">&#9587;</div>
+					</div>
+					<p class="overlay__content"><br>Calada tras calada quemaba otoño entre sus dedos y el atrevimiento de la costumbre le permitía estar un paso más cerca, cuando el hielo se rompía y declaraba la más inusitada gentileza.</br>
+						<br>Tantos frescos la pregunta pendía justo punta en lengua, punzante, asustadiza; ¡ahora, palabras, dispara! y escuchó-
+						</p>
+				</div>
+				<div class="overlay__item" id="preview-9">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/who.png" alt="who??"/>
+						<h3 class="box__title"><span class="box__title-inner">&#127767;</span></h3>
+						<h4 class="box__text box__text--bottom"><span class="box__text-inner">both</span></h4>
+					</div>
+					<p class="overlay__content">Su mera existencia revoloteaba alrededor de ironías y verdades cruentas—pues era el más vivo entre los muertos. El aroma a azufre se impregnó en su nariz desde nacimiento, junto con el de peonías tristes y maltrechas, negras en toda la extensión de su jardín. </br>
+						<br>Su nombre no sería el de un ser poderoso ni estaría rasgado en tinta, manchando páginas, engendrando maldiciones; no, su nombre apenas sería escuchado, dicho en bocas mundanas, una mera formalidad perecedera.</br>
+
+						<br>Ni lo uno ni lo otro.
+						</p>
+				</div>
+				<div class="overlay__item" id="preview-10">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="img/original/vaca.png" alt="imtheshit"/>
+						<h3 class="box__title box__title--bottom"><span class="box__title-inner">Moooooo</span></h3>
+						<h4 class="box__text"><span class="box__text-inner box__text-inner--rotated2">(...)</span></h4>
+					</div>
+					<p class="overlay__content">Eran esas gomas dulces, ácidas, un clásico que le arrugaba la cara mientras que recibía gritos de saludos, era el algodón deshilado para hacer de seda que se le enredaba en el tacón, y las apreciaciones del “¡gran disfraz, ese, es un gran disfraz!”. </br>
+						<br>La diferencia, también, se albergaba en el recuerdo imposible de olvidar; y ellos, por supuesto, tan distintos, tan iguales.</p>
+				</div>
+				<div class="overlay__item" id="preview-11">
+					<div class="box">
+						<div class="box__shadow-inner"></div>
+						<img class="box__img box__img--original" src="https://www.icegif.com/wp-content/uploads/black-hole-icegif-7.gif" alt="fin."/>
+						<h3 class="box__title box__title--straight box__title--left"><span class="box__title-inner">Buen-viaje</span></h3>
+						<div class="box__deco box__deco--top">&#10153;</div>
+					</div>
+					<p class="overlay__content">El fin.
+						<br>The end.
+						<br>¿o no?
+					</p>
+				</div>
+				<button class="overlay__close"><svg class="icon icon--cross"><use xlink:href="#icon-cross"></use></svg></button>
+			</div>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
